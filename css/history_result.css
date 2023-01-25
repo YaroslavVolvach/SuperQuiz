@@ -1,0 +1,33 @@
+header a { 
+    color: #4CAF50;
+    display: inline-block;
+    width: 90%;
+}
+
+#start{
+    width: 9%;
+}
+
+main {
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+}
+
+main div {  
+    margin-top: 1px;
+    background-color: #4CAF50; 
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    min-width: 17em;
+    margin-top: 5px;
+}

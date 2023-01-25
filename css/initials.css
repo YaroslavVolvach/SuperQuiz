@@ -1,0 +1,41 @@
+header p {
+    text-align: end;
+    display: inline-block;
+}
+
+header a { 
+    width: 15%;
+    color: #4CAF50;
+    display: inline-block;
+    width: 95%;
+}
+
+main {
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#field{
+    border-radius: 50px;
+    min-width: 200px;
+    min-height: 30px;
+    
+}
+
+#button{
+    border-radius: 50px;
+    min-width: 70px;
+    min-height: 30px;
+    background-color: #4CAF50;
+    color: black;
+}
+
+@media screen and (max-width: 514px) {
+    #button{
+        width: 200px;
+    }
+}
