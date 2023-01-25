@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/initials.css">
+    <title>Initials</title>
+</head>
+<header>
+    <a href="./history_result.html">View high scores</a>
+    <p></p>
+</header>
+<body>
+    <main>
+        <p>Enter your initials and click on the save button</p>
+        <form name="myForm" action="" method="GET">
+            <h3>Enter your initial:</h3> <br>
+            <input id="field" type="text" name="initials" value="">
+            <input id="button" type="button" name="button" value="Save" onClick="save_result(this.form)">
+        </form>
+        <h1></h1>
+    </main>
+    <script src="./js/initials.js"></script>
+</body>
+
+</html>
